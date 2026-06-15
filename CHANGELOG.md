@@ -65,3 +65,4 @@ All notable changes to this project are documented here.
 - Maintenance log entry 102
 - Maintenance log entry 103
 - Maintenance log entry 104
+- Maintenance log entry 105
