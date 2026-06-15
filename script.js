@@ -50,4 +50,12 @@ document.getElementById("start").addEventListener("click", start);
 document.getElementById("pause").addEventListener("click", pause);
 document.getElementById("reset").addEventListener("click", reset);
 
+// Press Space to toggle start/pause without reaching for the mouse
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Space") {
+    e.preventDefault();
+    timerId ? pause() : start();
+  }
+});
+
 render();
