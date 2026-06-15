@@ -13,6 +13,8 @@ function render() {
   const s = String(remaining % 60).padStart(2, "0");
   timeEl.textContent = `${m}:${s}`;
   modeEl.textContent = isWork ? "Work session" : "Break time";
+  // Show the countdown in the browser tab so it's visible while you work elsewhere
+  document.title = `${m}:${s} — Focus Timer`;
 }
 
 function tick() {
