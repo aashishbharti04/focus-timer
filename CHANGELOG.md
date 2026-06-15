@@ -17,3 +17,4 @@ All notable changes to this project are documented here.
 - Maintenance log entry 9
 - Maintenance log entry 10
 - Maintenance log entry 11
+- Maintenance log entry 12
