@@ -1,23 +1,18 @@
-# Hi there, I'm Aashish 👋
+# ⏱️ Focus Timer
 
-Welcome to my GitHub profile! I build things, learn constantly, and ship code.
+A clean, distraction-free **Pomodoro timer** that runs entirely in your browser. No installs, no accounts, no tracking — just open it and focus.
 
----
+## ✨ Features
+- 25 / 5 minute work & break cycles (Pomodoro technique)
+- Start, pause, and reset controls
+- Clean, responsive design that works on phone and desktop
+- 100% offline — a single HTML file, no build step
 
-### 🚀 About Me
-- 🔭 I'm currently working on open-source projects
-- 🌱 I'm always learning something new
-- 💬 Ask me about web development and automation
-- ⚡ Fun fact: I love turning ideas into working code
+## 🚀 Usage
+Open `index.html` in any browser, or use the hosted version on GitHub Pages.
 
-### 🛠️ Tech Toolbox
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+## 🤝 Contributing
+Contributions are welcome! Open an issue or send a pull request.
 
-### 📊 GitHub Stats
-![Aashish's GitHub stats](https://github-readme-stats.vercel.app/api?username=aashishbharti04&show_icons=true&theme=radical)
-
----
-
-⭐️ From [aashishbharti04](https://github.com/aashishbharti04)
+## 📄 License
+Released under the MIT License — see [LICENSE](LICENSE).
