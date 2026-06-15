@@ -1,0 +1,8 @@
+# Changelog
+
+All notable changes to this project are documented here.
+
+## [Unreleased]
+- Browser tab countdown
+- Spacebar start/pause shortcut
+- Contributing guide
