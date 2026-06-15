@@ -1,0 +1,38 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3c72"/>
+      <stop offset="1" stop-color="#2a5298"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- glass card -->
+  <g filter="url(#shadow)">
+    <rect x="390" y="150" width="500" height="340" rx="28"
+          fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5"/>
+  </g>
+
+  <text x="640" y="225" text-anchor="middle" fill="#ffffff" font-size="38" font-weight="700">⏱️ Focus Timer</text>
+  <text x="640" y="262" text-anchor="middle" fill="#ffffff" fill-opacity="0.75" font-size="20" letter-spacing="2">WORK SESSION</text>
+
+  <text x="640" y="370" text-anchor="middle" fill="#ffffff" font-size="110" font-weight="700" font-family="monospace">25:00</text>
+
+  <!-- buttons -->
+  <g>
+    <rect x="455" y="415" width="110" height="48" rx="12" fill="#ffffff"/>
+    <text x="510" y="446" text-anchor="middle" fill="#1e3c72" font-size="19" font-weight="600">Start</text>
+
+    <rect x="585" y="415" width="110" height="48" rx="12" fill="#ffffff"/>
+    <text x="640" y="446" text-anchor="middle" fill="#1e3c72" font-size="19" font-weight="600">Pause</text>
+
+    <rect x="715" y="415" width="110" height="48" rx="12" fill="#ffffff"/>
+    <text x="770" y="446" text-anchor="middle" fill="#1e3c72" font-size="19" font-weight="600">Reset</text>
+  </g>
+
+  <text x="640" y="560" text-anchor="middle" fill="#ffffff" fill-opacity="0.6" font-size="18">A clean, distraction-free Pomodoro timer · runs entirely in your browser</text>
+</svg>

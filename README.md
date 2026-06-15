@@ -1,6 +1,10 @@
 # ⏱️ Focus Timer
 
+![Focus Timer preview](preview.svg)
+
 A clean, distraction-free **Pomodoro timer** that runs entirely in your browser. No installs, no accounts, no tracking — just open it and focus.
+
+🔗 **[Try it live](https://aashishbharti04.github.io/focus-timer/)**
 
 ## ✨ Features
 - 25 / 5 minute work & break cycles (Pomodoro technique)
