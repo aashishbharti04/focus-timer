@@ -33,3 +33,4 @@ All notable changes to this project are documented here.
 - Maintenance log entry 25
 - Maintenance log entry 26
 - Maintenance log entry 27
+- Maintenance log entry 28
