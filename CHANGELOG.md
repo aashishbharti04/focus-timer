@@ -7,3 +7,4 @@ All notable changes to this project are documented here.
 - Spacebar start/pause shortcut
 - Contributing guide
 - Maintenance log entry 1
+- Maintenance log entry 2
