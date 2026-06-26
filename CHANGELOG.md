@@ -2,6 +2,15 @@
 
 All notable changes to this project are documented here.
 
+## [1.1.0] - 2026-06-26
+### Added
+- Circular progress ring around the countdown
+- Customizable work / break / long-break durations (saved in the browser)
+- Automatic long break after every 4 Pomodoros
+- Session counter that persists across reloads
+- Completion chime and optional desktop notifications
+- Focus task label that remembers what you're working on
+
 ## [Unreleased]
 - Browser tab countdown
 - Spacebar start/pause shortcut

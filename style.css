@@ -8,6 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   color: #fff;
+  padding: 20px;
 }
 
 .card {
@@ -15,20 +16,52 @@ body {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 20px;
-  padding: 48px 56px;
+  padding: 40px 44px;
   text-align: center;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 360px;
 }
 
-h1 { font-size: 1.8rem; margin-bottom: 8px; }
+h1 { font-size: 1.8rem; margin-bottom: 16px; }
+
+.task {
+  width: 100%;
+  display: block;
+  margin: 0 auto 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 9px 12px;
+  font-size: 0.95rem;
+  text-align: center;
+}
+.task::placeholder { color: rgba(255, 255, 255, 0.6); }
+.task:focus { outline: none; border-color: rgba(255, 255, 255, 0.55); }
 
 .mode { opacity: 0.8; margin-bottom: 16px; letter-spacing: 1px; }
 
+.dial { position: relative; width: 240px; height: 240px; margin: 0 auto 24px; max-width: 100%; }
+.ring { width: 100%; height: 100%; transform: rotate(-90deg); }
+.ring-bg { fill: none; stroke: rgba(255, 255, 255, 0.15); stroke-width: 10; }
+.ring-fg {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1s linear;
+}
+
 .time {
-  font-size: 5rem;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-  margin-bottom: 24px;
 }
 
 .controls { display: flex; gap: 12px; justify-content: center; }
@@ -47,3 +80,28 @@ button {
 
 button:hover { transform: translateY(-2px); }
 button:active { transform: translateY(0); }
+
+.sessions { opacity: 0.85; margin-top: 18px; font-size: 0.9rem; letter-spacing: 0.5px; }
+
+.settings { margin-top: 14px; font-size: 0.85rem; }
+.settings summary { cursor: pointer; opacity: 0.85; list-style: none; }
+.settings summary::-webkit-details-marker { display: none; }
+.setrow { display: flex; gap: 10px; justify-content: center; margin: 12px 0 6px; flex-wrap: wrap; }
+.setrow label { display: flex; flex-direction: column; gap: 4px; font-size: 0.75rem; opacity: 0.85; }
+.setrow input {
+  width: 74px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 8px;
+  padding: 7px;
+  font-size: 0.95rem;
+}
+.hint { opacity: 0.6; font-size: 0.75rem; margin-top: 8px; line-height: 1.5; }
+kbd {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.72rem;
+}

@@ -3,19 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1e3c72" />
   <title>Focus Timer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="card">
     <h1>⏱️ Focus Timer</h1>
+    <input id="task" class="task" type="text" placeholder="What are you focusing on?" maxlength="60" />
     <p class="mode" id="mode">Work session</p>
-    <div class="time" id="time">25:00</div>
+    <div class="dial">
+      <svg class="ring" viewBox="0 0 240 240" aria-hidden="true">
+        <circle class="ring-bg" cx="120" cy="120" r="110" />
+        <circle class="ring-fg" id="ring" cx="120" cy="120" r="110" />
+      </svg>
+      <div class="time" id="time">25:00</div>
+    </div>
     <div class="controls">
       <button id="start">Start</button>
       <button id="pause">Pause</button>
       <button id="reset">Reset</button>
     </div>
+    <p class="sessions" id="sessions">Pomodoros completed: 0</p>
+    <details class="settings">
+      <summary>⚙ Settings</summary>
+      <div class="setrow">
+        <label>Work <input id="set-work" type="number" min="1" max="120" /></label>
+        <label>Break <input id="set-break" type="number" min="1" max="60" /></label>
+        <label>Long break <input id="set-long" type="number" min="1" max="60" /></label>
+      </div>
+      <p class="hint">A long break starts after every 4 Pomodoros. Press <kbd>Space</kbd> to start/pause.</p>
+    </details>
   </main>
   <script src="script.js"></script>
 </body>
